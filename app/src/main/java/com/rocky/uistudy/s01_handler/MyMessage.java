@@ -1,4 +1,7 @@
 package com.rocky.uistudy.s01_handler;
 
-class MyMessage {
+public class MyMessage {
+    public int what;
+    public MyHandler target;
+    public Object obj;
 }
